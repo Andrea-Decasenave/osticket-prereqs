@@ -101,7 +101,20 @@ This tutorial outlines the prerequisites and installation steps of the open-sour
 - Dowload  and install **HeidiSQL** from the installation files HeidiSQL will pop up make sure "Launch HeidiSql is checked and click finish. Heidi will open up and you will create a new session use the user name :**root**  and the password: Password1 (we set these up earlier)
 - Once it connects it should look like this:
 - ![image](https://github.com/Andrea-Decasenave/osticket-prereqs/assets/150068516/152b1f80-e97b-4246-a16a-fdeb3e6986fb)
-- 
+- now we create a new database to do that right click **unnamed** then create new  and name it **osTicket**
+- Go back to osTicket and in the database setting typy in the user name, password, and databe base name we just created
+  - Username: root
+  - Password: Password1
+  - Database:osTicket
+  - Then click **Install now**
+  - ![image](https://github.com/Andrea-Decasenave/osticket-prereqs/assets/150068516/ad99bf6b-1d9c-4a86-a68b-27a9e7707e30)
+  - End Users Log in: http://localhost/osTicket/
+  - Help  desk Log in:http://localhost/osTicket/scp/login.php
+  - <h2>Clean up</h2>
+- Delete: C:\inetpub\wwwroot\osTicket\setup
+- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+   
 
 
   
