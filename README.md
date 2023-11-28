@@ -31,16 +31,20 @@ This tutorial outlines the prerequisites and installation steps of the open-sour
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- On your virtual machine got to the **Control Panel** then click on **Programs**
+- Under **Programs and Features** click on **Turn windows features on or off**
+- Go throught the list and check **Internet Information Services** and expand its list then head to **World Wide Web services** and expand its list and check **Application Development Features** expand that and check **CGI**
+- Finaly make sure all of the boxes under **Common HTTP Features** are checked and click ok 
+  ![image](https://github.com/Andrea-Decasenave/osticket-prereqs/assets/150068516/b951a5cc-cb35-4202-8381-156a9b803aa3)
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- To make sure everything was done correctly got to the browser on you Virtual machine and type **127.0.0.1** and the page to Internet Infromation Services should come up 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p></p>![image](https://github.com/Andrea-Decasenave/osticket-prereqs/assets/150068516/8d00c9bd-60e7-45d6-9f3f-da41a015620e)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
