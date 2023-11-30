@@ -65,7 +65,7 @@ This tutorial outlines the prerequisites and installation steps of the open-sour
   - Check **Install Windows As A Service** (leave serviec name as ""MySQl"" only for this project)
   - Check **Modify Security Settings** and set the root password as **Password1** ( just for this project)
 
-- Open **(IIS) INternet Infomation Manager** and run it as and Administrator
+- Open **(IIS) Internet Infomation Manager** and run it as and Administrator
   - You should see PHP Manager and URL Rewrite since we installed it previously
   -![image](https://github.com/Andrea-Decasenave/osticket-prereqs/assets/150068516/e3de2411-5014-462a-88ef-3b7678607057)
 - Click on **PHP Manager** then click on **Register New PHP version**
@@ -97,7 +97,7 @@ This tutorial outlines the prerequisites and installation steps of the open-sour
 - Navigate to c drice----> inetpub----->wwwroot---->osTicket---->include and rename ost-sampleconfig.php to **ost-config.php**
 - Right click **ost-config.php** then go to propertiesthen click on **security** then click on on **Advanced** and finally click **disable inheritance** then remove all inheritance 
 - Back on **Advanced Security settings** add a new premission and click on Select principle on the top then on "Enter a new object name" just put **everyone** then click check nsme and ok. Then check the **Full Control box** then clikc ok and apply
-- Head back to your browser and hit continue at the bottom of the page. Setup system settings and admin user and stop once you get to database settings. In data base setings fro your log in you can use "yourname@gmail.com" password: Password1 ( I recomend writting this down on notepad so you dont forget)
+- Head back to your browser and hit continue at the bottom of the page. Setup system settings and admin user(  Write down on Note pad the username and password you created for this section you will need it for the next lab) then stop once you get to database settings. In data base setings fro your log in you can use "yourname@gmail.com" password: Password1 ( I recomend writting this down on notepad so you dont forget)
 - Dowload  and install **HeidiSQL** from the installation files HeidiSQL will pop up make sure "Launch HeidiSql is checked and click finish. Heidi will open up and you will create a new session use the user name :**root**  and the password: Password1 (we set these up earlier)
 - Once it connects it should look like this:
 - ![image](https://github.com/Andrea-Decasenave/osticket-prereqs/assets/150068516/152b1f80-e97b-4246-a16a-fdeb3e6986fb)
